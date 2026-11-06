@@ -1,1 +1,6 @@
--- Crie uma nova tabela no banco de dados
+CREATE TABLE salarios(
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  cargo text,
+  nivel INTEGER,
+  salario INTEGER
+); 
